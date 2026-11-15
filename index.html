@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MatchEdge — Football Insights & Predictions</title>
+  <title>MatchEdge — Football Predictions & Insights</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
       background: #0d1117; color: #e6edf3; min-height: 100vh;
     }
+
+    /* Header */
     header {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 18px 20px; border-bottom: 1px solid #21262d;
+      padding: 16px 20px; border-bottom: 1px solid #21262d;
+      position: sticky; top: 0; background: #0d1117; z-index: 100;
     }
     .logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; }
     .logo-badge {
@@ -21,46 +24,292 @@
       display: grid; place-items: center; font-size: 18px;
     }
     .tag { color: #8b949e; font-size: 12px; }
-    .hero { text-align: center; padding: 70px 20px 40px; }
-    .hero h1 { font-size: 32px; line-height: 1.25; }
-    .hero h1 span { color: #3fb950; }
-    .hero p { color: #8b949e; margin-top: 14px; font-size: 16px; }
-    .cta {
-      display: inline-block; margin-top: 26px; padding: 13px 26px;
-      background: #238636; color: #fff; border-radius: 10px;
-      text-decoration: none; font-weight: 600;
+
+    /* Tabs */
+    .tabs {
+      display: flex; gap: 0; border-bottom: 1px solid #21262d;
+      overflow-x: auto; -webkit-overflow-scrolling: touch;
     }
-    .grid {
-      max-width: 900px; margin: 30px auto; padding: 0 20px;
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;
+    .tab {
+      flex: 1; min-width: max-content; padding: 14px 20px;
+      text-align: center; font-size: 14px; font-weight: 600;
+      color: #8b949e; cursor: pointer; border-bottom: 2px solid transparent;
+      transition: all 0.2s;
     }
-    .card {
+    .tab.active { color: #3fb950; border-bottom-color: #3fb950; }
+
+    /* League filter */
+    .league-filter {
+      padding: 12px 20px; border-bottom: 1px solid #21262d;
+    }
+    .league-tabs {
+      display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px;
+    }
+    .league-tab {
+      padding: 6px 14px; border-radius: 20px; font-size: 12px;
       background: #161b22; border: 1px solid #21262d;
-      border-radius: 12px; padding: 20px;
+      color: #8b949e; cursor: pointer; white-space: nowrap;
     }
-    .card h3 { font-size: 16px; margin-bottom: 8px; }
-    .card p { color: #8b949e; font-size: 14px; }
-    footer { text-align: center; color: #8b949e; font-size: 12px; padding: 30px; }
+    .league-tab.active { background: #238636; border-color: #238636; color: #fff; }
+
+    /* Match cards */
+    .matches { max-width: 900px; margin: 0 auto; padding: 16px 20px 40px; }
+    .match-card {
+      background: #161b22; border: 1px solid #21262d;
+      border-radius: 12px; padding: 16px; margin-bottom: 12px;
+    }
+    .match-header {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 12px; font-size: 11px; color: #8b949e;
+    }
+    .match-league { font-weight: 600; color: #8b949e; }
+    .match-time { color: #3fb950; font-weight: 600; }
+
+    .match-teams {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .team { flex: 1; text-align: center; }
+    .team-name { font-size: 16px; font-weight: 600; }
+    .vs { color: #8b949e; font-size: 12px; padding: 0 16px; }
+
+    .form {
+      display: flex; justify-content: center; gap: 3px; margin-bottom: 12px;
+    }
+    .form-dot {
+      width: 20px; height: 20px; border-radius: 50%;
+      display: grid; place-items: center; font-size: 12px;
+    }
+    .form-dot.win { background: rgba(46,160,67,0.15); }
+    .form-dot.draw { background: rgba(210,153,34,0.15); }
+    .form-dot.loss { background: rgba(248,81,73,0.15); }
+
+    .prediction-row {
+      display: flex; align-items: center; justify-content: space-between;
+      background: #0d1117; border-radius: 8px; padding: 10px 12px;
+    }
+    .prediction-info { flex: 1; }
+    .prediction-market { font-size: 11px; color: #8b949e; }
+    .prediction-pick { font-size: 14px; font-weight: 600; }
+    .prediction-prob {
+      font-size: 18px; font-weight: 700; color: #3fb950;
+      margin-left: 12px;
+    }
+    .confidence-badge {
+      display: inline-block; padding: 2px 8px; border-radius: 10px;
+      font-size: 10px; font-weight: 600; margin-left: 8px;
+    }
+    .confidence-badge.banker { background: rgba(46,160,67,0.2); color: #3fb950; }
+    .confidence-badge.solid { background: rgba(210,153,34,0.2); color: #d39e37; }
+    .confidence-badge.brave { background: rgba(56,139,253,0.2); color: #58a6ff; }
+
+    .value-badge {
+      background: rgba(46,160,67,0.2); color: #3fb950;
+      padding: 2px 8px; border-radius: 10px; font-size: 10px;
+      font-weight: 600; margin-left: 8px;
+    }
+
+    .odds-row {
+      display: flex; gap: 8px; margin-top: 10px;
+    }
+    .odd-box {
+      flex: 1; text-align: center; background: #0d1117;
+      border: 1px solid #21262d; border-radius: 8px;
+      padding: 8px 4px;
+    }
+    .odd-label { font-size: 10px; color: #8b949e; }
+    .odd-value { font-size: 14px; font-weight: 600; margin-top: 2px; }
+    .odd-value.selected { color: #3fb950; border-color: #238636; }
+
+    /* Pick of the day */
+    .pick-of-day {
+      background: linear-gradient(135deg, #161b22, #1a2332);
+      border: 1px solid #238636; border-radius: 12px;
+      padding: 20px; margin-bottom: 20px; text-align: center;
+    }
+    .pod-title {
+      font-size: 12px; color: #3fb950; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;
+    }
+    .pod-match { font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+    .pod-pick { font-size: 16px; color: #3fb950; font-weight: 600; }
+    .pod-prob { font-size: 28px; font-weight: 800; color: #3fb950; margin-top: 8px; }
+
+    /* Empty state */
+    .empty {
+      text-align: center; padding: 40px 20px; color: #8b949e;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center; color: #8b949e; font-size: 11px;
+      padding: 20px; border-top: 1px solid #21262d;
+    }
+    footer a { color: #58a6ff; text-decoration: none; }
   </style>
 </head>
 <body>
   <header>
     <div class="logo"><div class="logo-badge">⚽</div> MatchEdge</div>
-    <div class="tag">Insights · Live Scores · Predictions</div>
+    <div class="tag">Predictions · Insights</div>
   </header>
 
-  <section class="hero">
-    <h1>Stop guessing.<br />Start seeing the <span>edge</span>.</h1>
-    <p>Live scores, form analysis and probability-based match insights.</p>
-    <a class="cta" href="#features">Explore Matches</a>
-  </section>
+  <div class="tabs" id="tabs">
+    <div class="tab active" data-market="1X2">1X2</div>
+    <div class="tab" data-market="Over/Under 2.5">Over/Under 2.5</div>
+    <div class="tab" data-market="Both Teams to Score">BTTS</div>
+  </div>
 
-  <section class="grid" id="features">
-    <div class="card"><h3>📊 Form Wheels</h3><p>Last 5 games at a glance — 🟩🟩🟨⬛🟩</p></div>
-    <div class="card"><h3>🎯 Probability Engine</h3><p>Poisson-based goal expectancy, not random guesses.</p></div>
-    <div class="card"><h3>💰 Value Finder</h3><p>Where our model disagrees with bookmaker odds.</p></div>
-  </section>
+  <div class="league-filter">
+    <div class="league-tabs" id="leagueTabs">
+      <div class="league-tab active" data-league="all">All</div>
+    </div>
+  </div>
 
-  <footer>MatchEdge · Built with data, not vibes.</footer>
+  <div class="matches" id="matches">
+    <div class="empty">Loading matches...</div>
+  </div>
+
+  <footer>
+    MatchEdge · Predictions are estimates, not guarantees.<br />
+    Built with data, not vibes.
+  </footer>
+
+  <script>
+    let allMatches = [];
+    let currentMarket = '1X2';
+    let currentLeague = 'all';
+
+    // --- Load matches from JSON ---
+    async function loadMatches() {
+      try {
+        const res = await fetch('/data/matches.json');
+        allMatches = await res.json();
+        render();
+      } catch (e) {
+        document.getElementById('matches').innerHTML =
+          '<div class="empty">Failed to load matches. Try again later.</div>';
+      }
+    }
+
+    // --- Render all ---
+    function render() {
+      renderLeagues();
+      const filtered = filterMatches();
+      const container = document.getElementById('matches');
+
+      // Pick of the day (highest prob Banker)
+      const bankers = allMatches.filter(m => m.prediction.confidence === 'Banker');
+      if (bankers.length > 0) {
+        const pod = bankers.reduce((a, b) => a.prediction.probability > b.prediction.probability ? a : b);
+        container.innerHTML += `
+          <div class="pick-of-day">
+            <div class="pod-title">⭐ Pick of the Day</div>
+            <div class="pod-match">${pod.home} vs ${pod.away}</div>
+            <div class="pod-pick">${pod.prediction.pick}</div>
+            <div class="pod-prob">${pod.prediction.probability}%</div>
+          </div>
+        `;
+      }
+
+      if (filtered.length === 0) {
+        container.innerHTML += '<div class="empty">No matches for this filter.</div>';
+        return;
+      }
+
+      filtered.forEach(m => {
+        const formDots = m.form.map(f => {
+          let cls = 'loss';
+          let icon = '⬛';
+          if (f === '🟩') { cls = 'win'; icon = 'W'; }
+          else if (f === '🟨') { cls = 'draw'; icon = 'D'; }
+          return `<span class="form-dot ${cls}">${icon}</span>`;
+        }).join('');
+
+        const confClass = m.prediction.confidence.toLowerCase();
+        const valueBadge = m.value ? '<span class="value-badge">VALUE</span>' : '';
+
+        const selectedOdd = m.prediction.pick === '1' ? m.odds_home :
+                            m.prediction.pick === 'X' ? m.odds_draw :
+                            m.prediction.pick === '2' ? m.odds_away : '';
+
+        container.innerHTML += `
+          <div class="match-card">
+            <div class="match-header">
+              <span class="match-league">${m.league}</span>
+              <span class="match-time">${m.time}</span>
+            </div>
+            <div class="match-teams">
+              <div class="team"><div class="team-name">${m.home}</div></div>
+              <div class="vs">VS</div>
+              <div class="team"><div class="team-name">${m.away}</div></div>
+            </div>
+            <div class="form">${formDots}</div>
+            <div class="prediction-row">
+              <div class="prediction-info">
+                <div class="prediction-market">${m.prediction.market}</div>
+                <div class="prediction-pick">${m.prediction.pick} <span class="confidence-badge ${confClass}">${m.prediction.confidence}</span>${valueBadge}</div>
+              </div>
+              <div class="prediction-prob">${m.prediction.probability}%</div>
+            </div>
+            <div class="odds-row">
+              <div class="odd-box ${selectedOdd === m.odds_home ? 'selected' : ''}">
+                <div class="odd-label">1</div>
+                <div class="odd-value ${selectedOdd === m.odds_home ? 'selected' : ''}">${m.odds_home.toFixed(2)}</div>
+              </div>
+              <div class="odd-box ${selectedOdd === m.odds_draw ? 'selected' : ''}">
+                <div class="odd-label">X</div>
+                <div class="odd-value ${selectedOdd === m.odds_draw ? 'selected' : ''}">${m.odds_draw.toFixed(2)}</div>
+              </div>
+              <div class="odd-box ${selectedOdd === m.odds_away ? 'selected' : ''}">
+                <div class="odd-label">2</div>
+                <div class="odd-value ${selectedOdd === m.odds_away ? 'selected' : ''}">${m.odds_away.toFixed(2)}</div>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+    }
+
+    // --- Filter by market ---
+    function filterMatches() {
+      return allMatches.filter(m => {
+        const marketMatch = m.prediction.market === currentMarket ||
+                            (currentMarket === '1X2' && m.prediction.market === '1X2');
+        const leagueMatch = currentLeague === 'all' || m.league === currentLeague;
+        return marketMatch && leagueMatch;
+      });
+    }
+
+    // --- Render league tabs ---
+    function renderLeagues() {
+      const leagues = [...new Set(allMatches.map(m => m.league))];
+      const container = document.getElementById('leagueTabs');
+      container.innerHTML = '<div class="league-tab active" data-league="all">All</div>';
+      leagues.forEach(l => {
+        container.innerHTML += `<div class="league-tab" data-league="${l}">${l}</div>`;
+      });
+    }
+
+    // --- Tab listeners ---
+    document.getElementById('tabs').addEventListener('click', e => {
+      if (!e.target.classList.contains('tab')) return;
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      e.target.classList.add('active');
+      currentMarket = e.target.dataset.market;
+      render();
+    });
+
+    document.getElementById('leagueTabs').addEventListener('click', e => {
+      if (!e.target.classList.contains('league-tab')) return;
+      document.querySelectorAll('.league-tab').forEach(t => t.classList.remove('active'));
+      e.target.classList.add('active');
+      currentLeague = e.target.dataset.league;
+      render();
+    });
+
+    // --- Init ---
+    loadMatches();
+  </script>
 </body>
 </html>
