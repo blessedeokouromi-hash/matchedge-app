@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MatchEdge — Football Insights & Predictions</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: #0d1117; color: #e6edf3; min-height: 100vh;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 20px; border-bottom: 1px solid #21262d;
+    }
+    .logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; }
+    .logo-badge {
+      width: 34px; height: 34px; border-radius: 9px;
+      background: linear-gradient(135deg, #2ea043, #1f6feb);
+      display: grid; place-items: center; font-size: 18px;
+    }
+    .tag { color: #8b949e; font-size: 12px; }
+    .hero { text-align: center; padding: 70px 20px 40px; }
+    .hero h1 { font-size: 32px; line-height: 1.25; }
+    .hero h1 span { color: #3fb950; }
+    .hero p { color: #8b949e; margin-top: 14px; font-size: 16px; }
+    .cta {
+      display: inline-block; margin-top: 26px; padding: 13px 26px;
+      background: #238636; color: #fff; border-radius: 10px;
+      text-decoration: none; font-weight: 600;
+    }
+    .grid {
+      max-width: 900px; margin: 30px auto; padding: 0 20px;
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;
+    }
+    .card {
+      background: #161b22; border: 1px solid #21262d;
+      border-radius: 12px; padding: 20px;
+    }
+    .card h3 { font-size: 16px; margin-bottom: 8px; }
+    .card p { color: #8b949e; font-size: 14px; }
+    footer { text-align: center; color: #8b949e; font-size: 12px; padding: 30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><div class="logo-badge">⚽</div> MatchEdge</div>
+    <div class="tag">Insights · Live Scores · Predictions</div>
+  </header>
+
+  <section class="hero">
+    <h1>Stop guessing.<br />Start seeing the <span>edge</span>.</h1>
+    <p>Live scores, form analysis and probability-based match insights.</p>
+    <a class="cta" href="#features">Explore Matches</a>
+  </section>
+
+  <section class="grid" id="features">
+    <div class="card"><h3>📊 Form Wheels</h3><p>Last 5 games at a glance — 🟩🟩🟨⬛🟩</p></div>
+    <div class="card"><h3>🎯 Probability Engine</h3><p>Poisson-based goal expectancy, not random guesses.</p></div>
+    <div class="card"><h3>💰 Value Finder</h3><p>Where our model disagrees with bookmaker odds.</p></div>
+  </section>
+
+  <footer>MatchEdge · Built with data, not vibes.</footer>
+</body>
+</html>
