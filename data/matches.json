@@ -1,122 +1,80 @@
 [
   {
-    "match_id": 1,
-    "league": "Premier League",
-    "home": "Arsenal",
-    "away": "Chelsea",
-    "time": "18:00",
-    "date": "2025-11-16",
-    "form": ["🟩", "🟩", "🟨", "⬛", "🟩"],
-    "prediction": {
-      "market": "1X2",
-      "pick": "1",
-      "label": "Home Win",
-      "probability": 64,
-      "confidence": "Banker"
-    },
-    "value": true,
-    "odds_home": 1.80,
-    "odds_draw": 3.60,
-    "odds_away": 4.50
-  },
-  {
-    "match_id": 2,
+    "match_id": 564748,
     "league": "La Liga",
-    "home": "Barcelona",
-    "away": "Atletico Madrid",
+    "home": "Athletic Club",
+    "away": "RCD Espanyol de Barcelona",
     "time": "20:00",
-    "date": "2025-11-16",
-    "form": ["🟩", "🟩", "🟩", "🟩", "🟨"],
+    "date": "2026-11-20",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
     "prediction": {
-      "market": "Over/Under 2.5",
-      "pick": "Over 2.5",
-      "label": "Over 2.5 Goals",
-      "probability": 71,
-      "confidence": "Banker"
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
     },
     "value": false,
-    "odds_home": 1.50,
-    "odds_draw": 4.20,
-    "odds_away": 6.00
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
   },
   {
-    "match_id": 3,
-    "league": "Serie A",
-    "home": "AC Milan",
-    "away": "Inter Milan",
-    "time": "20:45",
-    "date": "2025-11-16",
-    "form": ["🟨", "🟩", "⬛", "🟩", "🟨"],
-    "prediction": {
-      "market": "Both Teams to Score",
-      "pick": "Yes",
-      "label": "BTTS - Yes",
-      "probability": 58,
-      "confidence": "Solid"
-    },
-    "value": true,
-    "odds_home": 2.80,
-    "odds_draw": 3.20,
-    "odds_away": 2.60
-  },
-  {
-    "match_id": 4,
+    "match_id": 565859,
     "league": "Bundesliga",
-    "home": "Bayern Munich",
-    "away": "Dortmund",
-    "time": "18:30",
-    "date": "2025-11-16",
-    "form": ["🟩", "🟩", "🟩", "🟨", "🟩"],
+    "home": "FC Bayern München",
+    "away": "1. FC Köln",
+    "time": "19:30",
+    "date": "2026-11-20",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
     "prediction": {
       "market": "1X2",
       "pick": "1",
       "label": "Home Win",
-      "probability": 73,
-      "confidence": "Banker"
+      "probability": 46,
+      "confidence": "Brave"
     },
     "value": false,
-    "odds_home": 1.40,
-    "odds_draw": 5.00,
-    "odds_away": 7.50
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
   },
   {
-    "match_id": 5,
+    "match_id": 559622,
     "league": "Ligue 1",
-    "home": "PSG",
-    "away": "Marseille",
-    "time": "21:00",
-    "date": "2025-11-16",
-    "form": ["🟩", "🟨", "🟩", "🟩", "🟩"],
-    "prediction": {
-      "market": "Over/Under 2.5",
-      "pick": "Over 2.5",
-      "label": "Over 2.5 Goals",
-      "probability": 67,
-      "confidence": "Solid"
-    },
-    "value": true,
-    "odds_home": 1.30,
-    "odds_draw": 5.50,
-    "odds_away": 9.00
-  },
-  {
-    "match_id": 6,
-    "league": "Premier League",
-    "home": "Liverpool",
-    "away": "Manchester United",
-    "time": "16:30",
-    "date": "2025-11-16",
-    "form": ["🟩", "🟩", "🟨", "🟩", "🟨"],
+    "home": "ES Troyes AC",
+    "away": "Le Havre AC",
+    "time": "19:45",
+    "date": "2026-11-20",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
     "prediction": {
       "market": "1X2",
       "pick": "1",
       "label": "Home Win",
-      "probability": 61,
-      "confidence": "Solid"
+      "probability": 46,
+      "confidence": "Brave"
     },
     "value": false,
-    "odds_home": 1.75,
-    "odds_draw": 3.80,
-    "odds_away": 4.80
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
   }
 ]
