@@ -1,11 +1,11 @@
 [
   {
-    "match_id": 560649,
-    "league": "Premier League",
-    "home": "Brentford FC",
-    "away": "Everton FC",
-    "time": "20:00",
-    "date": "2026-11-23",
+    "match_id": 575395,
+    "league": "Champions League",
+    "home": "Galatasaray SK",
+    "away": "Aston Villa FC",
+    "time": "17:45",
+    "date": "2026-11-24",
     "form": [
       "🟩",
       "🟨",
@@ -26,12 +26,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 564757,
-    "league": "La Liga",
-    "home": "Levante UD",
-    "away": "Elche CF",
-    "time": "20:00",
-    "date": "2026-11-23",
+    "match_id": 575396,
+    "league": "Champions League",
+    "home": "FK Bodø/Glimt",
+    "away": "LASK Linz",
+    "time": "17:45",
+    "date": "2026-11-24",
     "form": [
       "🟩",
       "🟨",
@@ -52,12 +52,168 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 558519,
-    "league": "Serie A",
-    "home": "AC Monza",
-    "away": "ACF Fiorentina",
-    "time": "19:45",
-    "date": "2026-11-23",
+    "match_id": 575397,
+    "league": "Champions League",
+    "home": "Real Madrid CF",
+    "away": "PSV",
+    "time": "20:00",
+    "date": "2026-11-24",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 575398,
+    "league": "Champions League",
+    "home": "Manchester City FC",
+    "away": "SSC Napoli",
+    "time": "20:00",
+    "date": "2026-11-24",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 575399,
+    "league": "Champions League",
+    "home": "Arsenal FC",
+    "away": "Borussia Dortmund",
+    "time": "20:00",
+    "date": "2026-11-24",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 575400,
+    "league": "Champions League",
+    "home": "Feyenoord Rotterdam",
+    "away": "FC Porto",
+    "time": "20:00",
+    "date": "2026-11-24",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 575401,
+    "league": "Champions League",
+    "home": "ŠK Slovan Bratislava",
+    "away": "Real Betis Balompié",
+    "time": "20:00",
+    "date": "2026-11-24",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 575402,
+    "league": "Champions League",
+    "home": "RB Leipzig",
+    "away": "Racing Club de Lens",
+    "time": "20:00",
+    "date": "2026-11-24",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 575403,
+    "league": "Champions League",
+    "home": "Como 1907",
+    "away": "PAE AEK",
+    "time": "20:00",
+    "date": "2026-11-24",
     "form": [
       "🟩",
       "🟨",
