@@ -1,11 +1,11 @@
 [
   {
-    "match_id": 575395,
+    "match_id": 575404,
     "league": "Champions League",
-    "home": "Galatasaray SK",
-    "away": "Aston Villa FC",
+    "home": "Sabah FK",
+    "away": "FC Barcelona",
     "time": "17:45",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "form": [
       "🟩",
       "🟨",
@@ -26,12 +26,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575396,
+    "match_id": 575405,
     "league": "Champions League",
-    "home": "FK Bodø/Glimt",
-    "away": "LASK Linz",
+    "home": "SK Slavia Praha",
+    "away": "Villarreal CF",
     "time": "17:45",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "form": [
       "🟩",
       "🟨",
@@ -52,12 +52,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575397,
+    "match_id": 575406,
     "league": "Champions League",
-    "home": "Real Madrid CF",
-    "away": "PSV",
+    "home": "FC Internazionale Milano",
+    "away": "VfB Stuttgart",
     "time": "20:00",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "form": [
       "🟩",
       "🟨",
@@ -78,12 +78,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575398,
+    "match_id": 575407,
     "league": "Champions League",
-    "home": "Manchester City FC",
-    "away": "SSC Napoli",
+    "home": "Club Atlético de Madrid",
+    "away": "Viking FK",
     "time": "20:00",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "form": [
       "🟩",
       "🟨",
@@ -104,12 +104,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575399,
+    "match_id": 575408,
     "league": "Champions League",
-    "home": "Arsenal FC",
-    "away": "Borussia Dortmund",
+    "home": "Paris Saint-Germain FC",
+    "away": "AS Roma",
     "time": "20:00",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "form": [
       "🟩",
       "🟨",
@@ -130,12 +130,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575400,
+    "match_id": 575409,
     "league": "Champions League",
-    "home": "Feyenoord Rotterdam",
-    "away": "FC Porto",
+    "home": "Club Brugge KV",
+    "away": "Liverpool FC",
     "time": "20:00",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "form": [
       "🟩",
       "🟨",
@@ -156,12 +156,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575401,
+    "match_id": 575410,
     "league": "Champions League",
-    "home": "ŠK Slovan Bratislava",
-    "away": "Real Betis Balompié",
+    "home": "Lille OSC",
+    "away": "FC Bayern München",
     "time": "20:00",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "form": [
       "🟩",
       "🟨",
@@ -182,12 +182,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575402,
+    "match_id": 575411,
     "league": "Champions League",
-    "home": "RB Leipzig",
-    "away": "Racing Club de Lens",
+    "home": "Sporting Clube de Portugal",
+    "away": "Manchester United FC",
     "time": "20:00",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "form": [
       "🟩",
       "🟨",
@@ -208,12 +208,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575403,
+    "match_id": 575412,
     "league": "Champions League",
-    "home": "Como 1907",
-    "away": "PAE AEK",
+    "home": "FK Shakhtar Donetsk",
+    "away": "Fenerbahçe SK",
     "time": "20:00",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "form": [
       "🟩",
       "🟨",
