@@ -1,63 +1,11 @@
 [
   {
-    "match_id": 575404,
-    "league": "Champions League",
-    "home": "Sabah FK",
-    "away": "FC Barcelona",
-    "time": "17:45",
-    "date": "2026-11-25",
-    "form": [
-      "🟩",
-      "🟨",
-      "🟩",
-      "⬛",
-      "🟩"
-    ],
-    "prediction": {
-      "market": "1X2",
-      "pick": "1",
-      "label": "Home Win",
-      "probability": 46,
-      "confidence": "Brave"
-    },
-    "value": false,
-    "odds_home": 2.2,
-    "odds_draw": 3.3,
-    "odds_away": 3.2
-  },
-  {
-    "match_id": 575405,
-    "league": "Champions League",
-    "home": "SK Slavia Praha",
-    "away": "Villarreal CF",
-    "time": "17:45",
-    "date": "2026-11-25",
-    "form": [
-      "🟩",
-      "🟨",
-      "🟩",
-      "⬛",
-      "🟩"
-    ],
-    "prediction": {
-      "market": "1X2",
-      "pick": "1",
-      "label": "Home Win",
-      "probability": 46,
-      "confidence": "Brave"
-    },
-    "value": false,
-    "odds_home": 2.2,
-    "odds_draw": 3.3,
-    "odds_away": 3.2
-  },
-  {
-    "match_id": 575406,
-    "league": "Champions League",
-    "home": "FC Internazionale Milano",
-    "away": "VfB Stuttgart",
+    "match_id": 560658,
+    "league": "Premier League",
+    "home": "Nottingham Forest FC",
+    "away": "Chelsea FC",
     "time": "20:00",
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "form": [
       "🟩",
       "🟨",
@@ -78,12 +26,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575407,
-    "league": "Champions League",
-    "home": "Club Atlético de Madrid",
-    "away": "Viking FK",
+    "match_id": 564765,
+    "league": "La Liga",
+    "home": "Levante UD",
+    "away": "Real Racing Club de Santander",
     "time": "20:00",
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "form": [
       "🟩",
       "🟨",
@@ -104,12 +52,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575408,
-    "league": "Champions League",
-    "home": "Paris Saint-Germain FC",
-    "away": "AS Roma",
-    "time": "20:00",
-    "date": "2026-11-25",
+    "match_id": 558515,
+    "league": "Serie A",
+    "home": "Venezia FC",
+    "away": "Bologna FC 1909",
+    "time": "19:45",
+    "date": "2026-11-27",
     "form": [
       "🟩",
       "🟨",
@@ -130,12 +78,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575409,
-    "league": "Champions League",
-    "home": "Club Brugge KV",
-    "away": "Liverpool FC",
-    "time": "20:00",
-    "date": "2026-11-25",
+    "match_id": 565869,
+    "league": "Bundesliga",
+    "home": "SV Werder Bremen",
+    "away": "Borussia Mönchengladbach",
+    "time": "19:30",
+    "date": "2026-11-27",
     "form": [
       "🟩",
       "🟨",
@@ -156,64 +104,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 575410,
-    "league": "Champions League",
-    "home": "Lille OSC",
-    "away": "FC Bayern München",
-    "time": "20:00",
-    "date": "2026-11-25",
-    "form": [
-      "🟩",
-      "🟨",
-      "🟩",
-      "⬛",
-      "🟩"
-    ],
-    "prediction": {
-      "market": "1X2",
-      "pick": "1",
-      "label": "Home Win",
-      "probability": 46,
-      "confidence": "Brave"
-    },
-    "value": false,
-    "odds_home": 2.2,
-    "odds_draw": 3.3,
-    "odds_away": 3.2
-  },
-  {
-    "match_id": 575411,
-    "league": "Champions League",
-    "home": "Sporting Clube de Portugal",
-    "away": "Manchester United FC",
-    "time": "20:00",
-    "date": "2026-11-25",
-    "form": [
-      "🟩",
-      "🟨",
-      "🟩",
-      "⬛",
-      "🟩"
-    ],
-    "prediction": {
-      "market": "1X2",
-      "pick": "1",
-      "label": "Home Win",
-      "probability": 46,
-      "confidence": "Brave"
-    },
-    "value": false,
-    "odds_home": 2.2,
-    "odds_draw": 3.3,
-    "odds_away": 3.2
-  },
-  {
-    "match_id": 575412,
-    "league": "Champions League",
-    "home": "FK Shakhtar Donetsk",
-    "away": "Fenerbahçe SK",
-    "time": "20:00",
-    "date": "2026-11-25",
+    "match_id": 559616,
+    "league": "Ligue 1",
+    "home": "Stade Brestois 29",
+    "away": "Paris FC",
+    "time": "19:45",
+    "date": "2026-11-27",
     "form": [
       "🟩",
       "🟨",
