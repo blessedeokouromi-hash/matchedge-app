@@ -1,11 +1,11 @@
 [
   {
-    "match_id": 560658,
+    "match_id": 560652,
     "league": "Premier League",
-    "home": "Nottingham Forest FC",
-    "away": "Chelsea FC",
-    "time": "20:00",
-    "date": "2026-11-27",
+    "home": "Leeds United FC",
+    "away": "Coventry City FC",
+    "time": "15:00",
+    "date": "2026-11-28",
     "form": [
       "🟩",
       "🟨",
@@ -26,12 +26,142 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 564765,
+    "match_id": 560655,
+    "league": "Premier League",
+    "home": "Manchester United FC",
+    "away": "Brentford FC",
+    "time": "15:00",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 560653,
+    "league": "Premier League",
+    "home": "Ipswich Town FC",
+    "away": "Aston Villa FC",
+    "time": "17:30",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 564760,
     "league": "La Liga",
-    "home": "Levante UD",
-    "away": "Real Racing Club de Santander",
+    "home": "Real Betis Balompié",
+    "away": "Rayo Vallecano de Madrid",
+    "time": "13:00",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 564767,
+    "league": "La Liga",
+    "home": "Málaga CF",
+    "away": "Athletic Club",
+    "time": "15:15",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 564759,
+    "league": "La Liga",
+    "home": "Elche CF",
+    "away": "Club Atlético de Madrid",
+    "time": "17:30",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 564762,
+    "league": "La Liga",
+    "home": "Real Madrid CF",
+    "away": "Deportivo Alavés",
     "time": "20:00",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "form": [
       "🟩",
       "🟨",
@@ -52,12 +182,12 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 558515,
+    "match_id": 558513,
     "league": "Serie A",
-    "home": "Venezia FC",
-    "away": "Bologna FC 1909",
-    "time": "19:45",
-    "date": "2026-11-27",
+    "home": "Frosinone Calcio",
+    "away": "Parma Calcio 1913",
+    "time": "14:00",
+    "date": "2026-11-28",
     "form": [
       "🟩",
       "🟨",
@@ -78,12 +208,64 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 565869,
+    "match_id": 558514,
+    "league": "Serie A",
+    "home": "Torino FC",
+    "away": "SS Lazio",
+    "time": "17:00",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 558518,
+    "league": "Serie A",
+    "home": "FC Internazionale Milano",
+    "away": "Genoa CFC",
+    "time": "19:45",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 565866,
     "league": "Bundesliga",
-    "home": "SV Werder Bremen",
-    "away": "Borussia Mönchengladbach",
-    "time": "19:30",
-    "date": "2026-11-27",
+    "home": "1. FC Köln",
+    "away": "SV 07 Elversberg",
+    "time": "14:30",
+    "date": "2026-11-28",
     "form": [
       "🟩",
       "🟨",
@@ -104,12 +286,220 @@
     "odds_away": 3.2
   },
   {
-    "match_id": 559616,
+    "match_id": 565867,
+    "league": "Bundesliga",
+    "home": "1. FSV Mainz 05",
+    "away": "1. FC Union Berlin",
+    "time": "14:30",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 565868,
+    "league": "Bundesliga",
+    "home": "SC Paderborn 07",
+    "away": "FC Schalke 04",
+    "time": "14:30",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 565874,
+    "league": "Bundesliga",
+    "home": "Hamburger SV",
+    "away": "FC Bayern München",
+    "time": "14:30",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 565870,
+    "league": "Bundesliga",
+    "home": "VfB Stuttgart",
+    "away": "Eintracht Frankfurt",
+    "time": "17:30",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 559612,
     "league": "Ligue 1",
-    "home": "Stade Brestois 29",
-    "away": "Paris FC",
+    "home": "Angers SCO",
+    "away": "Racing Club de Lens",
+    "time": "16:15",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 559617,
+    "league": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "Lille OSC",
     "time": "19:45",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 559620,
+    "league": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "ES Troyes AC",
+    "time": "19:45",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 559613,
+    "league": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "RC Strasbourg Alsace",
+    "time": "19:45",
+    "date": "2026-11-28",
+    "form": [
+      "🟩",
+      "🟨",
+      "🟩",
+      "⬛",
+      "🟩"
+    ],
+    "prediction": {
+      "market": "1X2",
+      "pick": "1",
+      "label": "Home Win",
+      "probability": 46,
+      "confidence": "Brave"
+    },
+    "value": false,
+    "odds_home": 2.2,
+    "odds_draw": 3.3,
+    "odds_away": 3.2
+  },
+  {
+    "match_id": 559614,
+    "league": "Ligue 1",
+    "home": "Paris Saint-Germain FC",
+    "away": "FC Lorient",
+    "time": "19:45",
+    "date": "2026-11-28",
     "form": [
       "🟩",
       "🟨",
